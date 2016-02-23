@@ -1,6 +1,6 @@
-@contactWidth(width:250px)
-
-
+@contactWidth: 250px;
+@contactMargin: 0% 0% 5% 100%;
+@h3Margin:25px 100px 25px 100px;
 
 *{
 padding:0;
@@ -63,7 +63,7 @@ margin:0;
     
     text-align:center;
     width: auto;
-    margin:25px 50px 25px 50px;
+    margin:@h3Margin;
     border-top:2px solid black;
     border-bottom: 2px solid black;
     padding:10px;
@@ -72,7 +72,7 @@ margin:0;
 }
 
 .about p{
-    margin:25px 50px 25px 50px;
+    margin:@h3Margin;
     position:relative;
     text-align: left;
     width:auto;
@@ -82,7 +82,7 @@ margin:0;
 }
 #skills ul{
     
-      margin:25px 50px 25px 150px;
+      margin:@h3Margin;
     position:relative;
     text-align: left;
     width:auto;
@@ -93,7 +93,7 @@ margin:0;
 
 
 
- .projects ul {margin:25px 100px 25px 100px;
+ .projects ul {margin:@h3Margin;
     position:relative;
     text-align: left;
     width:auto;
@@ -102,7 +102,7 @@ margin:0;
   list-style-type: none;
   }
    .experience ul{
-       margin:25px 100px 25px 120px;
+       margin:@h3Margin;
     position:relative;
     text-align: left;
     width:auto;
@@ -123,7 +123,7 @@ margin:0;
 }
 
 .education{
-    margin:25px 100px 25px 100px;
+    margin:@h3Margin;
     position:relative;
     text-align: left;
     width:auto;
@@ -136,7 +136,7 @@ margin:0;
     
      text-align:center;
     width: auto;
-    margin:25px 50px 25px 50px;
+    margin:@h3Margin;
     border-top:2px solid black;
     border-bottom: 2px solid black;
     padding:10px;
@@ -187,7 +187,7 @@ margin:0;
     
     text-align:center;
     width: auto;
-    margin:25px 50px 25px 50px;
+    margin:@h3Margin;
     border-top:2px solid black;
     border-bottom: 2px solid black;
     padding:10px;
@@ -199,43 +199,43 @@ form {
 }
 
 fieldset label {
-   margin: 0 0 5% 25%;
+   margin: @contactMargin;
    font-size: 12px;
    font-weight: bold;
    color:white;
 }
 .inputname {
-   width: @contactWidth;
+   width:@contactWidth;
    height: 25px;
    border-radius: 5px;
-   margin: 0 0 3% 25%;
+   margin: @contactMargin;
    font-size: 16px;
    font-style: italic;
 }
 
 .inputemail {
-   width: @contactWidth;
+  width: @contactWidth;
    height: 25px;
    border-radius: 5px;
-   margin: 0 0 3% 25%;
+   margin: @contactMargin;
    font-size: 16px;
    font-style: italic;
 }
 
-textarea {
-   width: @contactWidth;
-   height: 100px;
+.textarea {
+   width:@contactWidth;
+   height: 200px;
    border-radius: 5px;
    background-color: white;
-   margin: 0 0 0 25%;
+   margin:@contactMargin;
    font-size: 16px;     
 }
 
 .button {
-   width: @contactWidth;
+   width:@contactWidth;
    height: 25px;
    border-radius: 5px;
-   margin: 0 0 5% 25%;
+   margin: @contactMargin;
    font-size: 16px;
    background-color: white;
    color: gray;

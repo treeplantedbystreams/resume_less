@@ -1,240 +1,195 @@
-
-*{
-padding:0;
-margin:0;
+* {
+  padding: 0;
+  margin: 0;
 }
-		.nav{
-		background-color: #82b1ff;
-		height: 100px;
-		overflow:schroll;
-        }
-
-		.nav ul{
-			display: block;
-			width: auto;
-            text-align: center
-		}
-
-		.nav  li{
-				display:inline-block;
-			
-				
-				font-size: 20px;
-				margin-top: 50px;
-				margin-right: 80px;
-				text-indent: 0px;
-					
-						}	
-		 .nav  a {
-		 	font-family: Montserrat-Light;		
-			color: white;
-		 	text-decoration:none;
-         }
-         	
-
-		nav a:hover{
-			font-family: Montserrat-Light;
-			font-color:#808080;
-			border: 2px solid #00897B;
-			width:150px;
-			height:50px;
-			padding: 10px 10px 10px 10px;
-			line-height: 50px;
-		    
-
-		}
-		
-
-.name{
-    position:relative;
-    width:auto;
-    text-align: center;
-    margin:25px;
-    padding:15px;
-    display:block;
-    overflow:schroll;
-    
+.nav {
+  background-color: #82b1ff;
+  height: 100px;
+  overflow: schroll;
 }
-
- h3{
-    
-    text-align:center;
-    width: auto;
-    margin:25px 50px 25px 50px;
-    border-top:2px solid black;
-    border-bottom: 2px solid black;
-    padding:10px;
-    overflow:schroll;
-    
-}
-
-.about p{
-    margin:25px 50px 25px 50px;
-    position:relative;
-    text-align: left;
-    width:auto;
-    -webkit-column-count: 2;
+.nav ul {
   display: block;
-  padding:25;
+  width: auto;
+  text-align: center;
 }
-#skills ul{
-    
-      margin:25px 50px 25px 150px;
-    position:relative;
-    text-align: left;
-    width:auto;
-    -webkit-column-count: 2;
-  display: block;
-  padding:25;
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-right: 80px;
+  text-indent: 0px;
 }
-
-
-
- .projects ul {margin:25px 100px 25px 100px;
-    position:relative;
-    text-align: left;
-    width:auto;
+.nav a {
+  font-family: Montserrat-Light;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  font-family: Montserrat-Light;
+  font-color: #808080;
+  border: 2px solid #00897B;
+  width: 150px;
+  height: 50px;
+  padding: 10px 10px 10px 10px;
+  line-height: 50px;
+}
+.name {
+  position: relative;
+  width: auto;
+  text-align: center;
+  margin: 25px;
+  padding: 15px;
   display: block;
-  padding:25; 
+  overflow: schroll;
+}
+h3 {
+  text-align: center;
+  width: auto;
+  margin: 25px 100px 25px 100px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  overflow: schroll;
+}
+.about p {
+  margin: 25px 100px 25px 100px;
+  position: relative;
+  text-align: left;
+  width: auto;
+  -webkit-column-count: 2;
+  display: block;
+  padding: 25;
+}
+#skills ul {
+  margin: 25px 100px 25px 100px;
+  position: relative;
+  text-align: left;
+  width: auto;
+  -webkit-column-count: 2;
+  display: block;
+  padding: 25;
+}
+.projects ul {
+  margin: 25px 100px 25px 100px;
+  position: relative;
+  text-align: left;
+  width: auto;
+  display: block;
+  padding: 25;
   list-style-type: none;
-  }
-   .experience ul{
-       margin:25px 100px 25px 120px;
-    position:relative;
-    text-align: left;
-    width:auto;
+}
+.experience ul {
+  margin: 25px 100px 25px 100px;
+  position: relative;
+  text-align: left;
+  width: auto;
   display: block;
-  padding-top:25;
-    list-style-type: none;
-    
-   }
-   
-   .experience li{
-     
-  text-decoration:none;
-  
+  padding-top: 25;
+  list-style-type: none;
 }
-
-.experience #position{
-    font:22px bo
-    ;
+.experience li {
+  text-decoration: none;
 }
-
-.education{
-    margin:25px 100px 25px 100px;
-    position:relative;
-    text-align: left;
-    width:auto;
+.experience #position {
+  font: 22px;
+}
+.education {
+  margin: 25px 100px 25px 100px;
+  position: relative;
+  text-align: left;
+  width: auto;
   display: block;
-  font-size:22px;
-  padding:25;
+  font-size: 22px;
+  padding: 25;
 }
-
-#contact{
-    
-     text-align:center;
-    width: auto;
-    margin:25px 50px 25px 50px;
-    border-top:2px solid black;
-    border-bottom: 2px solid black;
-    padding:10px;
-    overflow:schroll;
-    
-    
+#contact {
+  text-align: center;
+  width: auto;
+  margin: 25px 50px 25px 50px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  overflow: schroll;
 }
-
-.container{
-    height:420px;
-    width:50%;
-    background-color: #82b1ff;
-    align:center;
-    display:block;
-    margin-top:50px ;
-    margin-left:250px;
-    font-color:white;
+.container {
+  height: 420px;
+  width: 50%;
+  background-color: #82b1ff;
+  align: center;
+  display: block;
+  margin-top: 50px ;
+  margin-left: 250px;
+  font-color: white;
 }
-
-.name{
-    
-    align: center;
-    margin:30px;
-    height: 90px 50px;
+.name {
+  align: center;
+  margin: 30px;
+  height: 90px 50px;
 }
-
-.email{
-   
-    align: center;
-    margin:20px;
-    height: 90px 50px;
+.email {
+  align: center;
+  margin: 20px;
+  height: 90px 50px;
 }
-.comments{
-    
-    align: center;
-    margin:30px;
-    height: 40px;
+.comments {
+  align: center;
+  margin: 30px;
+  height: 40px;
 }
- 
-#commentsbox{
-   font-size:12px;
-    height:200px;
-    width:500px;
-    color:white;
+#commentsbox {
+  font-size: 12px;
+  height: 200px;
+  width: 500px;
+  font-color: white;
 }
-
-#contact{
-    
-    text-align:center;
-    width: auto;
-    margin:25px 50px 25px 50px;
-    border-top:2px solid black;
-    border-bottom: 2px solid black;
-    padding:10px;
-    overflow:schroll;
-}    
-
+#contact {
+  text-align: center;
+  width: auto;
+  margin: 25px 50px 25px 50px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  overflow: schroll;
+}
 form {
-   margin-top: 30px;
+  margin-top: 30px;
 }
-
 fieldset label {
-   margin: 0 0 5% 25%;
-   font-size: 12px;
-   font-weight: bold;
-   color:white;
+  margin: 0% 0% 5% 100%;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
 }
 .inputname {
-   width: 240px;
-   height: 25px;
-   border-radius: 5px;
-   margin: 0 0 3% 25%;
-   font-size: 16px;
-   font-style: italic;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 0% 0% 5% 100%;
+  font-size: 16px;
+  font-style: italic;
 }
-
 .inputemail {
-   width: 240px;
-   height: 25px;
-   border-radius: 5px;
-   margin: 0 0 3% 25%;
-   font-size: 16px;
-   font-style: italic;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 0% 0% 5% 100%;
+  font-size: 16px;
+  font-style: italic;
 }
-
 textarea {
-   width: 250px;
-   height: 100px;
-   border-radius: 5px;
-   background-color: white;
-   margin: 0 0 0 25%;
-   font-size: 16px;     
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 0% 0% 5% 100%;
+  font-size: 16px;
 }
-
 .button {
-   width: 250px;
-   height: 25px;
-   border-radius: 5px;
-   margin: 0 0 5% 25%;
-   font-size: 16px;
-   background-color: white;
-   color: gray;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 0 0 5% 25%;
+  font-size: 16px;
+  background-color: white;
+  color: gray;
 }
