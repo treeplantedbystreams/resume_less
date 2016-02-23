@@ -1,5 +1,5 @@
 @contactWidth: 250px;
-@contactMargin: 0% 0% 5% 100%;
+@contactMargin: 0% 0% 3% 50%;
 @h3Margin:25px 100px 25px 100px;
 
 *{
@@ -9,7 +9,7 @@ margin:0;
 		.nav{
 		background-color: #82b1ff;
 		height: 100px;
-		overflow:schroll;
+		overflow:scroll;
         }
 
 		.nav ul{
@@ -26,26 +26,7 @@ margin:0;
 				margin-top: 50px;
 				margin-right: 80px;
 				text-indent: 0px;
-					
-						}	
-		 .nav  a {
-		 	font-family: Montserrat-Light;		
-			color: white;
-		 	text-decoration:none;
-         }
-         	
-
-		nav a:hover{
-			font-family: Montserrat-Light;
-			font-color:#808080;
-			border: 2px solid #00897B;
-			width:150px;
-			height:50px;
-			padding: 10px 10px 10px 10px;
-			line-height: 50px;
-		    
-
-		}
+        }
 		
 
 .name{
@@ -134,53 +115,33 @@ margin:0;
 
 #contact{
     
-     text-align:center;
-    width: auto;
-    margin:@h3Margin;
-    border-top:2px solid black;
-    border-bottom: 2px solid black;
-    padding:10px;
-    overflow:schroll;
-    
+  text-align: center;
+  width: auto;
+  margin: @h3Margin;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  overflow: schroll;
     
 }
 
 .container{
-    height:420px;
+    height:450px;
     width:50%;
     background-color: #82b1ff;
-    align:center;
+    text-align:center;
     display:block;
     margin-top:50px ;
     margin-left:250px;
-    font-color:white;
+    color:white;
 }
 
 .name{
     
-    align: center;
+    text-align: center;
     margin:30px;
     height: 90px 50px;
-}
 
-.email{
-   
-    align: center;
-    margin:20px;
-    height: 90px 50px;
-}
-.comments{
-    
-    align: center;
-    margin:30px;
-    height: 40px;
-}
- 
-#commentsbox{
-   font-size:12px;
-    height:200px;
-    width:500px;
-    font-color:white;
 }
 
 #contact{
@@ -195,11 +156,11 @@ margin:0;
 }    
 
 form {
-   margin-top: 30px;
+   margin-top: 60px;
 }
 
 fieldset label {
-   margin: @contactMargin;
+   
    font-size: 12px;
    font-weight: bold;
    color:white;
@@ -208,7 +169,6 @@ fieldset label {
    width:@contactWidth;
    height: 25px;
    border-radius: 5px;
-   margin: @contactMargin;
    font-size: 16px;
    font-style: italic;
 }
@@ -217,17 +177,15 @@ fieldset label {
   width: @contactWidth;
    height: 25px;
    border-radius: 5px;
-   margin: @contactMargin;
    font-size: 16px;
    font-style: italic;
 }
 
-.textarea {
+textarea {
    width:@contactWidth;
    height: 200px;
    border-radius: 5px;
    background-color: white;
-   margin:@contactMargin;
    font-size: 16px;     
 }
 
@@ -235,7 +193,6 @@ fieldset label {
    width:@contactWidth;
    height: 25px;
    border-radius: 5px;
-   margin: @contactMargin;
    font-size: 16px;
    background-color: white;
    color: gray;
