@@ -1,13 +1,12 @@
-
+@special-color:#82b1ff;
 
 
 * {
   margin: 0;
 }
 
-.contact {}
 .nav {
-  background-color: #82b1ff;
+  background-color: @special-color;
   height: 80px;
   overflow: schroll;
   color:white;
@@ -32,6 +31,10 @@
 .nav a{
   color:white;
   text-decoration:none
+}
+
+a:hover { 
+    background-color:white ;
 }
 
 .name {
@@ -109,17 +112,15 @@ h3 {
   width: auto;
   position:relative;
   display:inline-block;
-  overflow: schroll;
+  overflow: scroll;
 }
 .container {
   height: 320px;
   width: 65%; 
-  background-color: #82b1ff;
+  background-color: @special-color;
   margin-left:130px;
   display: block;
   overflow:scroll;
- 
-  
   color: white;
 }
 .name {
@@ -131,7 +132,6 @@ h3 {
   height: 90px 50px;
 }
 
-}
 #commentsbox {
   font-size: 12px;
   height: 200px;
@@ -147,29 +147,26 @@ fieldset label {
   font-weight: bold;
   color: white;
 
-}
-.inputname {
-  width: 300px;
+.input{
+      width: 300px;
   height: 25px;
   border-radius: 5px;
   font-size: 16px;
-  font-style: italic;
-}
-.inputemail {
-  width: 300px;
-  height: 25px;
-  border-radius: 5px;
-  margin:10px
-  font-size: 16px;
-  font-style: italic;
-}
+  font-style: italic;}
+
+        .inputname {
+        .input;
+        }
+        .inputemail {
+        .input;
+        }
 .textarea {
   width: 400px;
   height: 25px;
   border-radius: 5px;
   background-color: white;
-  margin:10px
-  font-size: 16px;
+  margin:10px;
+  font-size:16px;
 }
 .button {
   width: 200px;
@@ -180,3 +177,4 @@ fieldset label {
   background-color: white;
   color: gray;
 }
+} 
