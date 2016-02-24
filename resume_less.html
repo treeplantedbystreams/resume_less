@@ -3,66 +3,79 @@
    
     <head>
        <link rel="stylesheet" type="text/css" href="resume_less.css"> 
+        <link rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+            crossorigin="anonymous">
    
-    <tite></tite>
+    <title></title>
     </head>
 <body>
-    <div class="nav">
-        <ul>
-            <li>
-                <a href="#about">About
-                </a>
-            </li>
-            <li> 
-                <a href= "#skills">Skills
-                </a>
-            </li>
-            <li>
-                <a href= "#projects">Projects</a>
-            </li>
-            <li>
-                <a href= "#experience">Experience
-                </a>
-            </li>
-            <li>
-                <a href= "#contact">Contact
-                </a>
-            </li>
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    
+    <div>
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#about">About</a></li>
+            <li role="presentation"><a href="#skills">Skills</a></li>
+            <li role="presentation"><a href="#project">Projects</a></li>
+            <li role="presentation"><a href="#experience">Experience</a></li>
+            <li role="presentation"><a href="#contact">Contact</a></li>
         </ul>
-    </div>
+     </div>
+        </div>
+            </nav>
+        </div>
+        </div>
+
 
     <div class="name">
         <h1 class="name">David Johnston</h1>
         <p1>Front-end Developer</p1>
     </div>
-
-    <h3 id="about_me">About Me</h3>
-
-    </div>
-     <a id="about"></a>
-    <div class="about">
-    <p>Communications Strategist crafting solutions-based plans, programs and content that convert ambitious ideas into game-changing results. Mindset of a future business leader... audacious and humble; ideally suited for a mission-focused enterprise where entrepreneurial energy and smart business methodology feed inspiration. At ease when speaking to large groups and managing an audience of 250+; confident leading brainstorming or Q&A sessions with diverse groups. Passionate about teaching aspiring leaders and professionals to embody the principles of their purpose.
-    </p>
-    </div>
+<h3>About Me</h3>
+    <div class="row" id="about">
+        <div class="col-md-6">>
+            <ul>
+               <li>Communications Strategist crafting solutions-based plans, programs and content that convert ambitious ideas into game-changing results. Mindset of a future business leader... audacious and humble; ideally suited for a mission-focused enterprise where entrepreneurial energy and smart</li> 
+            </ul> 
+        </div>    
+        <div class="col-md-6">
+            <ul>   
+               <li>business methodology feed inspiration. At ease when speaking to large groups and managing an audience of 250+; confident leading brainstorming or Q&A sessions with diverse groups. Passionate about teaching aspiring leaders and professionals to embody the principles of their purpose.</li>
+             </ul>  
+        </div>
+        </div>
 
     <h3>Technical Skills</h3>
 
-    <div id="skills">
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Jquery, Bootstrap,LESS</li>
-            <li>Git, NPM, API's, REST</li>
-            <li>Typescript, NodeJS/Express </li>
-            <li>NoSQL, SQL, Databases</li>  
-            <li>Angular, PlatypusTS,PaltypusTi</li>
-            <li>Mobile Design, Cordova Authentication,</li>
-            <li>Full web deployment</li>
-        </ul>
-    </div>
+        <div class="row" id="skills">
+            
+            <div class="col-md-6">
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Jquery, Bootstrap,LESS</li>
+                    <li>Git, NPM, API's, REST</li>
+                    <li>Typescript, NodeJS/Express </li>
+                </ul>   
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li>NoSQL, SQL, Databases</li>  
+                    <li>Angular, PlatypusTS,PaltypusTi</li>
+                    <li>Mobile Design, Cordova Authentication,</li>
+                    <li>Full web deployment</li>
+                </ul>
+            </div>   
+        </div>    
+
+
+<div>
+    <h3>Projects</h3>
+</div>    
     
-    <h3 id="projects">Projects</h3>
-    
-    <div class= "Projects">
+    <div class="row" id="Projects">
         <ul>
             <h5 style="bold">jhisrael</h5>
 
@@ -72,26 +85,27 @@
         </ul>
     </div>
 
-    <h3 id="experience">Experience</h3>
+    <h3>Experience</h3>
 
-    <div class="Experience">
-        <ul>
-            <li id="position" style="font-style:bold">Recent Position</li>
-            <li id="work">JH Israel</li>
-            <li id="time"><em>December 2013-August 2015</em></li>
-            <li id="role">Marketing Communications</li>
-            <br>
+    <div class="row" id ="Experience">
+        
+            <ul>
+                <li id="position" style="font-style:bold">Recent Position</li>
+                <li id="work">JH Israel</li>
+                <li id="time"><em>December 2013-August 2015</em></li>
+                <li id="role">Marketing Communications</li>
+            </ul>
+       
+            <ul>
             <li id="position">Recent Position</li>
             <li id="work">JH Ranch</li>
             <li id="time"><em>Summer 2011</em></li>
             <li id="role">Production Assistant</li>
             </ul>
-        <br>
+        
     </div>
-    
-    <h3 id="Education">Education</h3>
-    
-    <div class="education">  
+<h3>Education</h3>
+    <div id="education">  
         <p>Depot/U</p>      
     </div>
     

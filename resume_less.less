@@ -4,32 +4,31 @@
 * {
   margin: 0;
 }
-
+li{
+    list-style:none;
+}
 .nav {
   background-color: @special-color;
-  height: 80px;
-  overflow: schroll;
-  color:white;
+  height: 75px;
+  color:black;
 }
-.nav ul {
-  display: block;
-  width: 800px;
-  text-align: center;
-  overflow:scroll;
-  color:white;
-}
-.nav li {
+.nav_nav-pills{
   display: inline-block;
-  font-size: 18px;
-  margin-top: 35px;
-  margin-right: 80px;
-  text-indent: 0px;
-  overflow:scroll;
-  color:white;
+  text-align: center;
+   margin-top:20px;
+   width:75%;
+}
 
+
+.nav li {
+
+  font-size: 22px;
+  text-indent: 0px;
+  color:black;
+  margin-top:25px;
 }
 .nav a{
-  color:white;
+  color:black;
   text-decoration:none
 }
 
@@ -38,15 +37,12 @@ a:hover {
 }
 
 .name {
-  position: relative;
-  width: auto;
+  position:relative;
   text-align: center;
   margin: 25px;
   padding: 15px;
   display: block;
-  overflow: schroll;
-
- 
+  overflow: scroll;
 }
 h3 {
   text-align: center;
@@ -57,12 +53,12 @@ h3 {
   padding: 10px;
   overflow: schroll;
 }
-.about p {
+
+.about {
   margin: 25px 100px 25px 100px;
   position: relative;
   text-align: left;
   width: auto;
-  -webkit-column-count: 2;
   display: block;
   padding: 25;
 }
@@ -71,7 +67,6 @@ h3 {
   position: relative;
   text-align: left;
   width: auto;
-  -webkit-column-count: 2;
   display: block;
   padding: 25;
 }
@@ -169,6 +164,9 @@ fieldset label {
         margin:10px;
         font-size:16px;
 }
+button { 
+        .btn   
+             }
 .btn {
         width: 100px;
         padding:20px;
@@ -184,14 +182,12 @@ fieldset label {
         -ms-transition-duration: .5s;
         -0-transition-duration:.5s;
         transition-duration:.5s;
-      
+        
+    
                 &:hover, &:active, &:visited {
                     background:#fff;
                     color:#000;
-                    box-shadow: insert 0 0 10px #000 0 0 5px #000;
-                }
-                }
-button {
-    .btn;
-       }
- 
+                    box-shadow: insert 0 0 10px #000 0 0 5px #000; 
+                       }    
+}
+  
