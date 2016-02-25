@@ -1,6 +1,5 @@
 @special-color:#82b1ff;
 
-
 * {
   margin: 0;
 }
@@ -15,20 +14,21 @@ li{
 .nav_nav-pills{
   display: inline-block;
   text-align: center;
-   margin-top:20px;
-   width:75%;
+   padding-top:15px;
+   
 }
 
 
 .nav li {
 
   font-size: 22px;
-  text-indent: 0px;
-  color:black;
+  color:white;
   margin-top:25px;
+  margin-left:275px;
+  
 }
 .nav a{
-  color:black;
+  color:white;
   text-decoration:none
 }
 
@@ -54,7 +54,7 @@ h3 {
   overflow: schroll;
 }
 
-.about {
+#about {
   margin: 25px 100px 25px 100px;
   position: relative;
   text-align: left;
@@ -62,15 +62,15 @@ h3 {
   display: block;
   padding: 25;
 }
-#skills ul {
-  margin: 25px 100px 25px 150px;
+#skills {
+  margin: 50px 150px 50px 250px;
+  
   position: relative;
   text-align: left;
-  width: auto;
+  width: 600px;
   display: block;
-  padding: 25;
 }
-.projects ul {
+#projects  {
   margin: 25px 100px 25px 100px;
   position: relative;
   text-align: left;
@@ -79,13 +79,13 @@ h3 {
   padding: 25;
   list-style-type: none;
 }
-.experience ul {
-  margin: 25px 100px 25px 100px;
+#experience ul {
+  margin: 25px 100px 25px 200px;
   position: relative;
   text-align: left;
   width: auto;
   display: block;
-  padding-top: 25;
+  padding-top: 30;
   list-style-type: none;
 }
 .experience li {
@@ -94,29 +94,28 @@ h3 {
 .experience #position {
   font: 22px;
 }
-.education {
-  position: relative;
+#education {
+  position: 50%;
   width: auto;
   display: block;
   font-size: 22px;
-  padding: 25;
+  padding: 50px;
  text-align:center;
 }
-.contact {
+#contact {
   text-align:left;
   width: auto;
   position:relative;
-  display:inline-block;
-  overflow: scroll;
+  display:block;
 }
 .container {
-  height: 320px;
-  width: 65%; 
+  height: 400px;
+  width: 50%; 
   background-color: @special-color;
-  margin-left:130px;
+  margin-left:100px;
   display: block;
-  overflow:scroll;
   color: white;
+padding-top:20px;
 }
 .name {
   text-align: center;
@@ -134,8 +133,9 @@ h3 {
   font-color: white;
 }
 form {
-  margin-top: 30px;
-  margin-left:90px
+  margin-top: 15px;
+  margin-left:190px;
+  margin-bottom:15px;
 }
 fieldset label {
             font-size: 12px;
@@ -174,6 +174,7 @@ button {
         background: #000;
         border-radius:10px;
         font-size: 12px;
+        display: block;
         letter-spacing:3px;
         color: #fff; 
         cursor: pointer;
