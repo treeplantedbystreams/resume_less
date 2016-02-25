@@ -53,10 +53,10 @@ h3 {
   padding: 25;
 }
 #skills {
-  margin: 50px 150px 50px 250px;
+  margin: 50px 150px 50px 210px;
   position: relative;
   text-align: left;
-  width: 600px;
+  width: auto;
   display: block;
 }
 #projects {
@@ -96,15 +96,26 @@ h3 {
   width: auto;
   position: relative;
   display: block;
+  margin-left: 300px;
 }
-.container {
+fieldset {
+  width: 600px;
   height: 400px;
-  width: 50%;
   background-color: #82b1ff;
-  margin-left: 100px;
-  display: block;
+  border-radius: 10px;
+  margin: 20px auto 40px;
+  margin-left: 50px;
+  padding-left: 75px;
+}
+fieldset label {
+  font-size: 12px;
+  font-weight: bold;
   color: white;
-  padding-top: 20px;
+}
+form {
+  margin-top: 15px;
+  margin-left: 190px;
+  margin-bottom: 15px;
 }
 .name {
   text-align: center;
@@ -117,18 +128,8 @@ h3 {
 #commentsbox {
   font-size: 12px;
   height: 200px;
-  width: 00px;
+  width: 400px;
   font-color: white;
-}
-form {
-  margin-top: 15px;
-  margin-left: 190px;
-  margin-bottom: 15px;
-}
-fieldset label {
-  font-size: 12px;
-  font-weight: bold;
-  color: white;
 }
 .input {
   width: 300px;
