@@ -1,24 +1,11 @@
 * {
   margin: 0;
 }
-li {
-  list-style: none;
-}
-.nav {
-  background-color: #82b1ff;
-  height: 75px;
-  color: black;
-}
-.nav_nav-pills {
-  display: inline-block;
-  text-align: center;
-  padding-top: 15px;
-}
 .nav li {
   font-size: 22px;
   color: white;
   margin-top: 25px;
-  margin-left: 275px;
+  margin-left: 15px;
 }
 .nav a {
   color: white;
